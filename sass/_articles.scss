@@ -1,0 +1,16 @@
+.article-container-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-container {
+    padding: 3rem 5rem;
+    max-width: 600px;
+}
+
+.article-container h1 {
+    font-family: Junge;
+    font-size: 3.5rem;
+    font-weight: normal;
+}

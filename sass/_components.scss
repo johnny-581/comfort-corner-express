@@ -1,0 +1,44 @@
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background-color: $color-light-yellow;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+    min-height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: inherit;
+    text-decoration: none;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
